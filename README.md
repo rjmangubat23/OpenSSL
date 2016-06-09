@@ -1,6 +1,6 @@
 # Compiling the latest OpenSSL for Android
 
-For this example, I am using the version openssl-1.0.2g and Android NDK32 r10b.
+I created this to specifically answer the question on stackoverflow with regards to building the latest OpenSSL, its been a big pain for me and I would like to help people on how to go about this. For this example, I am using the version openssl-1.0.2g and Android NDK32 r10b.
 
     $ rm -rf openssl-1.0.2g/
     $ tar xzf openssl-1.0.2g.tar.gz
@@ -41,5 +41,6 @@ Download Openssl here: ftp://ftp.openssl.org/source
 
 Download Complete list of Android NDK files here: https://github.com/taka-no-me/android-cmake/blob/master/ndk_links.md 
 
+If this has helped you in anyway feel free to share this to other people who are having problems on this. Also please upvote my answer on Stackoverflow: http://stackoverflow.com/a/37043683/2210080 that would mean a lot to me. Thank you!
 
 If you have any questions, feel free to email me: mangubatrj@gmail.com
