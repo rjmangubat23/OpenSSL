@@ -10,7 +10,12 @@ I created this to specifically answer the question on stackoverflow with regards
         
     $ perl -pi -e 's/install: all install_docs install_sw/install: install_docs install_sw/g' Makefile.org
     
+    # Use this if for ArmV7 
     $ ./config shared no-ssl2 no-ssl3 no-comp no-hw no-engine --openssldir=<Path of your OpenSSL> 
+    # Use this if for old Arm 
+    $ ./Configure android shared no-ssl2 no-ssl3 no-comp no-hw no-engine --openssldir=<Path of your OpenSSL> 
+    # Use this if for x86
+    $ ./Configure android-x86 shared no-ssl2 no-ssl3 no-comp no-hw no-engine --openssldir=<Path of your OpenSSL> 
         
     $ make depend
     $ make clean
