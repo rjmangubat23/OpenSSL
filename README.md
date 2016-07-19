@@ -23,7 +23,10 @@ I created this to specifically answer the question on stackoverflow with regards
     before make install, ---Delete the "include" folder (path/of/your/openssl-1.0.2g/include)  or you may move it to another directory for safe keeping. 
     $ make install 
 
-Make sure that you input the right NDK paths into your setenv-android.sh or else you will have errors. Get the proper scripts for setenv-android.sh that are needed to build OpenSSL for different architectures (ArmV7, Android x86). 
+
+Note:
+
+Make sure that you input the right NDK paths into your setenv-android.sh or else you will have errors. Get the proper scripts for setenv-android.sh that are needed to build OpenSSL for different architectures (ArmV7, old Arm, and Android x86). 
 
 Example for this build I used Android NDK vr10b (http://dl.google.com/android/ndk/android-ndk32-r10b-darwin-x86.tar.bz2) 
  and used the ff path values inside my setenv-android.sh file:
@@ -33,17 +36,14 @@ Example for this build I used Android NDK vr10b (http://dl.google.com/android/nd
     _ANDROID_API="android-19"(Line 24)
 
 They will differ via on the architecture(ArmV7, x86, etc) that you want the OpenSSL to build on. Please refer to the files I uploaded on this for x86: OpenSSL/x86/ and ArmV7: OpenSSL/ArmV7/ 
-TIP: 
 
-If you want to change or remove the SHLIB_VERSION_NUMBER of your libcrypto and libssl files. Go to <path of your opensssl>/crypto/opensslv.h and change SHLIB_VERSION_NUMBER to whichever you like. 
+TIP: If you want to change or remove the SHLIB_VERSION_NUMBER of your libcrypto and libssl files. Go to <path of your opensssl>/crypto/opensslv.h and change SHLIB_VERSION_NUMBER to whichever you like. 
 
 Reference:
 
 https://wiki.openssl.org/index.php/Android
 
 https://github.com/seabat/openssl-android
-
-Note:
 
 Download Openssl here: ftp://ftp.openssl.org/source
 
