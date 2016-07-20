@@ -37,7 +37,11 @@ Example for this build I used Android NDK vr10b (http://dl.google.com/android/nd
 
 They will differ via on the architecture(ArmV7, x86, etc) that you want the OpenSSL to build on. Please refer to the files I uploaded on this for x86: OpenSSL/x86/ and ArmV7: OpenSSL/ArmV7/ 
 
-TIP: If you want to change or remove the SHLIB_VERSION_NUMBER of your libcrypto and libssl files. Go to <path of your opensssl>/crypto/opensslv.h and change SHLIB_VERSION_NUMBER to whichever you like. 
+TIP: 
+- If you want to change or remove the SHLIB_VERSION_NUMBER of your libcrypto and libssl files. Go to <path of your opensssl>/crypto/opensslv.h and change SHLIB_VERSION_NUMBER to whichever you like. 
+
+- Also if the scripts given are not working for you, you may do it manually: Please see Issue: https://github.com/rjmangubat23/OpenSSL/issues/1 (Special thanks to Luiz C. Valdetaro, for pointing this out to me) 
+
 
 Reference:
 
