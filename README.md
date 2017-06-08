@@ -51,7 +51,7 @@ https://github.com/seabat/openssl-android
 
 Download Openssl here: ftp://ftp.openssl.org/source
 
-Download Complete list of Android NDK files here: https://github.com/taka-no-me/android-cmake/blob/master/ndk_links.md 
+Download Complete list of Android NDK files here: https://developer.android.com/ndk/downloads/index.html
 
 If this has helped you in anyway feel free to share this to other people who are having problems on this. Also please upvote my answer on Stackoverflow: http://stackoverflow.com/a/37043683/2210080 that would mean a lot to me. Thank you!
 
