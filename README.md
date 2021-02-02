@@ -55,4 +55,4 @@ Download Complete list of Android NDK files here: https://developer.android.com/
 
 If this has helped you in anyway feel free to share this to other people who are having problems on this. Also please upvote my answer on Stackoverflow: http://stackoverflow.com/a/37043683/2210080 that would mean a lot to me. Thank you!
 
-If you have any questions, feel free to email me: mangubatrj@gmail.com
+If you have any questions, feel free to email me: pluggedph@gmail.com
